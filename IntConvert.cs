@@ -13,7 +13,7 @@ namespace HelloWorldCS
         {
             int number;
             Console.Write("Enter the number: ");
-            number = Convert.ToInt16(Console.ReadLine());  //Klavyeden girilen değerler stribg türünde olduğu için bunu int türüne çevirmeliyiz
+            number = Convert.ToInt16(Console.ReadLine());  //Klavyeden girilen değerler string türünde olduğu için bunu int türüne çevirmeliyiz
             Console.Write(number);
 
             Console.Read();
