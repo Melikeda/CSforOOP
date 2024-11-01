@@ -1,21 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
+using System.Diagnostics.Metrics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projects
+namespace HelloWorldCS
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
-            int bakteri = 1;
-            for(int i=1; i<=24; i++)
+            string[] city = { "Ankara", "Çorum", "Trabzon", "Diyarbakır" };
+            int[] number = { 1, 2, 3, 4 };
+
+            Console.WriteLine(city[2]);
+            Console.WriteLine(number[3]);
+            Console.WriteLine();
+
+            for (int i= 0; i<=3; i++)
             {
-                bakteri = bakteri * 2;
-                Console.WriteLine(bakteri);
+                Console.WriteLine(number[i]);
             }
+
             Console.Read();
         }
     }
