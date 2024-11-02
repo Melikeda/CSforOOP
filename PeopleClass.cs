@@ -13,5 +13,12 @@ namespace HelloWorldCS
         public int id;
         public string sehir;
 
+
+        public string Ad { get => ad; set => ad = value.ToLower(); }  //BU bir property 
+        public string Soyad  // soyas Soyad olamlı yani yukarıdaki gibi aynı yazma 
+        { 
+            get => soyad; 
+            set => soyad = value.ToUpper(); 
+        }
     }
 }
