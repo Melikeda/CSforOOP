@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Student
+class  ClassAverage
 {
     static void Main()
     {
