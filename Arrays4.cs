@@ -1,4 +1,4 @@
-s4﻿using System;
+using System;
 
 class InitArray
 {
