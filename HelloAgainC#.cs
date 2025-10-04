@@ -6,9 +6,12 @@ class Welcome1{
         Console.WriteLine("the C# again!");    // the C# again!
         
         Console.Write("Hİ ");                  // Hİ I am perfect
-        Console.Write("I am perfect");          
+        Console.Write("I am perfect"); 
+
+        Console.WriteLine("N\A\B\E\R"); 
     } // end Main
 
 } // end clas Welcome1
+
 
 
