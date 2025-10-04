@@ -8,10 +8,11 @@ class Welcome1{
         Console.Write("Hİ ");                  // Hİ I am perfect
         Console.Write("I am perfect"); 
 
-        Console.WriteLine("N\A\B\E\R"); 
+        Console.WriteLine("N\nA\nB\nE\nR"); 
     } // end Main
 
 } // end clas Welcome1
+
 
 
 
