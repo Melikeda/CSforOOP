@@ -1,21 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.Design;
-using System.Diagnostics.Metrics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+//  string interpolation
+using system;
 
-namespace HelloWorldCS
-{
-    class Program
-    {
-
-        static void Main(string[] args)
-        {
-            string person = "Paul";
-            Console.WriteLine($"Welcome to C# programming {person}"); //string interpolation
-        }
-
-    }
-}
+class Welcome1{
+    static void Main() {
+        string person = "Merve";
+        Console.WriteLine($"Welcome the C# again! {person}");
+    } 
+} 
