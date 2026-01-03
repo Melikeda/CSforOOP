@@ -1,0 +1,24 @@
+using System;
+
+class Ogrenci
+{
+    public string Ad;
+}
+
+class Program
+{
+    static void Main()
+    {
+        try
+        {
+            Ogrenci ogr = null;   // Nesne oluşturulmadı
+            Console.WriteLine(ogr.Ad); // HATA
+        }
+        catch (NullReferenceException)
+        {
+            Console.WriteLine("Null reference hatası!");
+        }
+
+        Console.ReadLine();
+    }
+}
