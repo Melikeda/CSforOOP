@@ -1,76 +1,67 @@
-# C# Object Oriented Programming & Fundamentals Practice
+# Database Management & SQL Practice
 
-This repository contains **topic-based C# code examples** created while studying **C# fundamentals and Object Oriented Programming (OOP)** concepts.  
-Each `.cs` file focuses on a **single concept** and is written for learning, experimentation, and reinforcement purposes.
+Bu repository, **Database Management (Veritabanı Yönetimi)** dersi kapsamında öğrenilen konuları pekiştirmek amacıyla yazılmış **SQL kod örneklerini** içermektedir.  
+Her dosya, veritabanı yönetimi ve SQL’in belirli bir konusuna odaklanan **bağımsız pratik çalışmalar**dan oluşmaktadır.
 
-## 📚 Topics Covered
+## 📚 Kapsanan Konular
 
-The repository includes practical examples covering the following areas:
+Repository içerisinde aşağıdaki başlıklarda SQL örnekleri bulunmaktadır:
 
-### 🔹 C# Fundamentals
-- Variables and Data Types
-- Type Casting (Implicit / Explicit)
-- Control Statements (if, if-else, switch-case)
-- Loops (for, foreach, while, do-while)
-- Methods and Parameters
-- Arrays and Collections
-- String Operations
-- Math and Random Functions
-- User Input Handling
+### 🔹 SQL Temelleri
+- SELECT, INSERT, UPDATE, DELETE
+- WHERE, ORDER BY
+- DISTINCT
+- LIMIT / TOP
+- LIKE, BETWEEN, IN
 
-### 🔹 Object Oriented Programming (OOP)
-- Classes and Objects
-- Constructors and Destructors
-- Encapsulation (Get / Set)
-- Inheritance
-- Polymorphism
-- Interfaces
-- Abstract Classes and Methods
-- Virtual, Override, and Sealed Methods
-- Composition
-- `this` keyword
-- Static Members
-- Readonly and Const Variables
+### 🔹 Filtreleme ve Sorgulama
+- AND / OR kullanımı
+- Koşullu sorgular
+- Alias (AS)
+- String ve sayısal işlemler
 
-### 🔹 Exception Handling
-- try-catch blocks
-- Custom exception handling
-- Common exceptions:
-  - DivideByZeroException
-  - NullReferenceException
-  - IndexOutOfRangeException
-  - FileNotFoundException
-  - OverflowException
-  - FormatException
-  - Throwing Exceptions
+### 🔹 Aggregate Fonksiyonlar
+- COUNT
+- SUM
+- AVG
+- MIN / MAX
+- GROUP BY
+- HAVING
 
-### 🔹 LINQ
-- LINQ basics
-- Let clause
-- LINQ practice examples
+### 🔹 İlişkisel Veritabanı Kavramları
+- Primary Key
+- Foreign Key
+- Tablolar arası ilişkiler
+- JOIN işlemleri:
+  - INNER JOIN
+  - LEFT JOIN
+  - RIGHT JOIN
 
-### 🔹 Additional Practice
-- Interview-style problems
-- Small algorithmic exercises
-- Console-based practice programs
+### 🔹 Alt Sorgular (Subqueries)
+- Nested queries
+- EXISTS / NOT EXISTS
 
-## 📂 Project Structure
+### 🔹 Ek Çalışmalar
+- Ders örnekleri
+- Küçük pratik senaryolar
+- Sorgu yazma alıştırmaları
 
-- Each `.cs` file represents a **single topic or concept**
-- File names are intentionally descriptive (e.g. `AbstractMethod.cs`, `Inheritance.cs`)
-- All examples are implemented as **console applications**
+## 📂 Proje Yapısı
 
-## 🎯 Purpose of the Project
+- Her `.sql` dosyası **tek bir konuya veya sorgu grubuna** odaklanır
+- Dosya isimleri, içerdikleri konuyu açıkça ifade edecek şekilde seçilmiştir
+- Kodlar öğrenme ve tekrar amaçlı olarak **sade ve anlaşılır** biçimde yazılmıştır
 
-- Build a strong foundation in **C# and OOP**
-- Understand core programming concepts through hands-on examples
-- Prepare for:
-  - Advanced C# topics
-  - Software development courses
-  - Technical interviews and internships
+## 🎯 Projenin Amacı
 
-## 🛠 Technologies Used
+- SQL sorgu yazma becerisini geliştirmek
+- Veritabanı yönetimi kavramlarını uygulamalı olarak öğrenmek
+- Aşağıdaki alanlara sağlam bir temel oluşturmak:
+  - Backend geliştirme
+  - Veri bilimi ve analitik
+  - Yazılım ve veri tabanı mülakatları
 
-- C#
-- Console Applications
-- Object Oriented Programming Principles
+## 🛠 Kullanılan Teknolojiler
+
+- SQL
+- Relational Database Concepts
