@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Metrics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 
 namespace HelloWorldCS
 {
@@ -11,23 +6,24 @@ namespace HelloWorldCS
     {
         static void Main(string[] args)
         {
-            string username, password;
             Console.Write("Username: ");
-            username = Console.ReadLine();
-            Console.WriteLine("Password: ");
-            password = Console.ReadLine();
+            string username = Console.ReadLine();
+            Console.Write("Password: ");
+            string password = Console.ReadLine();
 
-            if(username == "Admin" & password == "123456")
+            bool hasUsername = !string.IsNullOrWhiteSpace(username);
+            bool hasPassword = !string.IsNullOrWhiteSpace(password) && password.Length >= 8;
+
+            if (hasUsername && hasPassword)
             {
-                Console.Write("True");
+                Console.Write("Valid input");
             }
             else
             {
-                Console.Write("False");
+                Console.Write("Invalid input");
             }
-
 
             Console.Read();
         }
     }
-} 
+}
